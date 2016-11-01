@@ -6,13 +6,13 @@
 
     <!-- The Basics -->
     <!--<groupId>...</groupId>-->
-    <artifactId>contract-domain</artifactId>
+    <artifactId>systemcontract</artifactId>
     <!--<version>...</version>-->
     <!--<packaging>...</packaging>-->
     <!--<dependencies>...</dependencies>-->
     <parent>
-        <groupId>com.seanshubin.contract</groupId>
-        <artifactId>contract-parent</artifactId>
+        <groupId>com.cj</groupId>
+        <artifactId>systemcontract-parent</artifactId>
         <version>1.0</version>
     </parent>
     <!--<dependencyManagement>...</dependencyManagement>-->

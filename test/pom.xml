@@ -6,19 +6,19 @@
 
     <!-- The Basics -->
     <!--<groupId>...</groupId>-->
-    <artifactId>contract-test</artifactId>
+    <artifactId>systemcontract-test</artifactId>
     <!--<version>...</version>-->
     <!--<packaging>...</packaging>-->
     <dependencies>
         <dependency>
-            <groupId>com.seanshubin.contract</groupId>
-            <artifactId>contract-domain</artifactId>
+            <groupId>com.cj</groupId>
+            <artifactId>systemcontract</artifactId>
             <version>1.0</version>
         </dependency>
     </dependencies>
     <parent>
-        <groupId>com.seanshubin.contract</groupId>
-        <artifactId>contract-parent</artifactId>
+        <groupId>com.cj</groupId>
+        <artifactId>systemcontract-parent</artifactId>
         <version>1.0</version>
     </parent>
     <!--<dependencyManagement>...</dependencyManagement>-->

@@ -1,8 +1,8 @@
-package com.seanshubin.contract.test
+package com.cj.systemcontract.test
 
 import java.util.UUID
 
-import com.seanshubin.contract.domain.UuidContract
+import com.cj.systemcontract.UuidContract
 
 trait UuidNotImplemented extends UuidContract {
   override def randomUUID: UUID = ???

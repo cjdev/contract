@@ -1,10 +1,10 @@
-package com.seanshubin.contract.test
+package com.cj.systemcontract.test
 
 import java.io.InputStream
 import java.net.URL
 import java.util
 
-import com.seanshubin.contract.domain.ClassLoaderContract
+import com.cj.systemcontract.ClassLoaderContract
 
 trait ClassLoaderNotImplemented extends ClassLoaderContract {
   override def loadClass(name: String): Class[_] = ???

@@ -1,10 +1,10 @@
-package com.seanshubin.contract.test
+package com.cj.systemcontract.test
 
 import java.io.File
 import java.lang.ProcessBuilder.Redirect
 import java.util
 
-import com.seanshubin.contract.domain.ProcessBuilderContract
+import com.cj.systemcontract.ProcessBuilderContract
 
 trait ProcessBuilderNotImplemented extends ProcessBuilderContract {
   override def command(command: util.List[String]): ProcessBuilderContract = ???

@@ -1,4 +1,4 @@
-package com.seanshubin.contract.domain
+package com.cj.systemcontract
 
 import java.util.UUID
 

@@ -1,4 +1,4 @@
-package com.seanshubin.contract.domain
+package com.cj.systemcontract
 
 import java.io.{BufferedReader, BufferedWriter, InputStream, OutputStream}
 import java.nio.channels.SeekableByteChannel

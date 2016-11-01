@@ -1,11 +1,11 @@
-package com.seanshubin.contract.test
+package com.cj.systemcontract.test
 
 import java.io.{Console, InputStream, PrintStream}
 import java.nio.channels.Channel
 import java.util
 import java.util.Properties
 
-import com.seanshubin.contract.domain.SystemContract
+import com.cj.systemcontract.SystemContract
 
 trait SystemNotImplemented extends SystemContract {
   override def in: InputStream = ???

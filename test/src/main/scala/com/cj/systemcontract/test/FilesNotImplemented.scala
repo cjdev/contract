@@ -1,4 +1,4 @@
-package com.seanshubin.contract.test
+package com.cj.systemcontract.test
 
 import java.io.{BufferedReader, BufferedWriter, InputStream, OutputStream}
 import java.lang.Iterable
@@ -11,7 +11,7 @@ import java.util
 import java.util.function.BiPredicate
 import java.util.stream.Stream
 
-import com.seanshubin.contract.domain.FilesContract
+import com.cj.systemcontract.FilesContract
 
 trait FilesNotImplemented extends FilesContract {
   override def newInputStream(path: Path, options: OpenOption*): InputStream = ???
